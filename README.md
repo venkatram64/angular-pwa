@@ -34,7 +34,7 @@ npm install json-server
 
 step 2:
 
-create a db.json in src folder
+create a db.json in main folder (out of src) folder
 
 and add two records for to-do list
 
