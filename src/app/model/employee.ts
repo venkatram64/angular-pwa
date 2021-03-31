@@ -1,11 +1,11 @@
 export class Employee {
-    empId: string;
+    id: string;
     name: string;
     task: string;
     deadLine: string;
 
     constructor(){
-        this.empId="";
+        this.id="";
         this.name="";
         this.task = "";
         this.deadLine = "";
