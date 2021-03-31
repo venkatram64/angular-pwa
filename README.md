@@ -51,27 +51,31 @@ create employee
     ng g c employee
 
 step 6:
+create employee add
+ng g c employee-add
+
+step 7:
 create model
 ng g class model\employee
 
-step 7:
+step 8:
 create service
 ng g s serives\employee
 
-step 8: adding service worker modules
+step 9: adding service worker modules
 
 ng add @angular/pwa
 
-step 9: build the application
+step 10: build the application
 ng build --prod
 
-step 10: to deploy this application we need server
+step 11: to deploy this application we need server
 npm install -g http-server
 
-step 11:
+step 12:
 goto dist\online-pwa
 
-tep 12: http-server -p 8081
+tep 13: http-server -p 8081
 
 step 14: open ngsw-config.json
 add the following  element
