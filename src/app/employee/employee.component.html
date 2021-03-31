@@ -1,0 +1,20 @@
+<p>employee works!</p>
+
+<table class="table table-hover">
+    <thead>
+        <tr class="table-primary">
+            <th>Employee No</th>
+            <th>Employee Name</th>
+            <th>Employee task</th>
+            <th>Employee Deadline</th>
+        </tr>        
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of employees">
+            <th>{{emp.empId}}</th>
+            <th>{{emp.name}}</th>
+            <th>{{emp.task}}</th>
+            <th>{{emp.deadLine}}</th>
+        </tr>
+    </tbody>
+</table>
