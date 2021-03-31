@@ -9,12 +9,14 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { EmployeeAddComponent } from './employee-add/employee-add.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeComponent,
-    EmployeeAddComponent
+    EmployeeAddComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
